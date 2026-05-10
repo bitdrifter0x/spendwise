@@ -19,4 +19,4 @@ DOM manipulation, event handling, array methods (map, filter, reduce), localStor
 
 ## Screenshot
 ## Preview
-![spendwise](assets/Screenshot 2026-05-10 161728.png)
+![spendwise](assets/Screenshot.png)
