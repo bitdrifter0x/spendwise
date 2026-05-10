@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #d6edda8c;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.head {
+    display: flex;
+    position: relative;
+    left: 370px;
+    margin-top: 60px;
+    justify-content: space-between;
+    width: 800px;
+    /* border: 2px solid; */
+}
+
+.dateSelector {
+    background-color: #ffffffeb;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    z-index: 2;
+}
+
+.head h1 {
+    font-family: 'Inter', sans-serif;
+    /* letter-spacing: 5%; */
+    color: rgb(15, 14, 14);
+}
+
+
+.NewEntry {
+    width: 740px;
+    background-color: #ffffffeb;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border: none; 
+    border-radius: 10px;
+    position: relative;
+    left: 370px;
+    margin-bottom: 30px;
+    color: gray;
+    /* border: 2px solid; */
+
+}
+
+.NewEntry p {
+    background-color: #ffffffeb;
+    margin-bottom: 10px;
+    color: rgb(15, 14, 14);
+    font-weight: 500;
+    letter-spacing: 5%;
+}
+
+form {
+    background-color: #ffffffeb;
+    border-radius: 10px;
+
+}
+
+::placeholder {
+    color: gray;
+    font-family: 'Inter', sans-serif;
+
+}
+
+select {
+    color: gray;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+input:focus, select:focus {
+    outline: 1px solid rgba(150, 150, 150, 0.33);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+
+#ExpName {
+    line-height: normal;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #d6edda8c;
+    margin-right: 10px;
+
+}
+
+#ExpAmt {
+    line-height: normal;
+
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #d6edda8c;
+    margin-right: 10px;
+}
+
+#ExpCat {
+    line-height: normal;
+
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #d6edda8c;
+    margin-right: 10px;
+    
+}
+
+#ExpDate {
+
+    line-height: normal;
+
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: #d6edda8c;
+    margin-right: 10px;
+    color: gray;
+
+}
+
+#AddBtn {
+    padding: 10px 20px;
+    background-color: #006d77;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.filter{
+    position: relative;
+    left: 380px;
+    margin-bottom: 15px;
+    display: flex;
+    width: 400px;
+
+    /* border: 2px solid; */
+
+
+}
+
+.filter p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+
+.filterPill {
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background-color: #ffffffeb;
+    padding: 8px 16px;
+    border-radius: 15px;
+    margin-right: 10px;
+    color: gray;
+    transition-duration: 0.3s;
+}
+
+.filterPill:hover {
+    color: black;
+}
+
+.expenseCard{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    left: 370px;
+    background-color: #ffffffeb;
+    padding: 15px;
+    border-radius: 10px;
+    width: 770px;
+    color: rgb(15, 14, 14);
+    font-weight: 500;
+    letter-spacing: 5%;
+
+}
+
+
+
+.dot {
+    width: 11px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.detail {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 2px solid; */
+    width: 300px;
+
+}
+
+.detail div {
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.expVal {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0;
+
+    margin-right: 25px;
+    color: rgba(255, 0, 0, 0.758);
+    margin-top: 5px;
+    font-size: 24px;
+    font-family: sans-serif;
+    width: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.btn {
+    background-color: #ffffffeb;
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(210, 210, 210);
+    margin-top: 5px;
+    padding-bottom: 1px;
+
+    transition-duration: 0.3s;
+    
+
+}
+
+.btn:hover {
+    color: black;
+    border-color: black;
+    transition-duration: 0.3s;
+}
+
+.date {
+    /* border: 2px solid; */
+    height: 20px;
+    width: 100px;
+    margin-top: 6px;
+    margin-right: 10px;
+    margin-left: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.totalExp {
+    /* border: 2px solid;  */
+    width: 220px;
+    padding: 20px;
+    /* position: relative; */
+    /* left: 400px; */
+    margin-top: 100px; 
+    border-radius: 10px;
+    background-color: #ffffffeb;
+    color: gray;
+}
+
+.totalExp h3 {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 0, 0, 0.756);
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.totalExp p {
+    font-size: 16px;
+    letter-spacing: 5%;
+    color: rgb(15, 14, 14);
+}
+
+.catExp {
+    color: rgba(15, 14, 14, 0.603);
+    margin-top: 2px;
+
+}
+
+.totalTransactions {
+    color: black;
+}
+
+
+.KPIS {
+    /* border: 2px solid; */
+    display: flex;
+    position: relative;
+    left: 370px; 
+    width: 800px;
+    margin-top: -50px;
+
+}
+
+.totalTransactions {
+    background-color: #ffffffeb;
+    width: 200px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.totalTransactions p {
+    color: rgb(15, 14, 14);
+    letter-spacing: 5%;
+}
+
+.totalTransactions h3 {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 0, 0, 0.756);
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.topCat {
+    background-color: #ffffffeb;
+    width: 240px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px
+}
+
+.topCat p {
+    color: rgb(15, 14, 14);
+    letter-spacing: 5%;
+
+}
+
+
+.topCat h3 {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 0, 0, 0.756);
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.topCatResult {
+    color: black;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Smart Expense Tracker</title>
+</head>
+<body>
+
+    <div class="head">
+    <h1>Expense Tracker</h1>
+    <select class="dateSelector" id="dateSelector"></select>
+    </div>
+    <div class="KPIS">
+
+    <div class="totalExp"></div>
+    <div class="totalTransactions"></div>
+    <div class="topCat"></div>
+
+    </div>
+    
+    <div class="NewEntry">
+        <p>Add Expense</p>
+        <form>
+            <input type="text" id="ExpName" placeholder="Description">
+            <input type="number" id="ExpAmt" placeholder="$ Amount">
+            <select name="Category" id="ExpCat">
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Bill">Bill</option>
+            </select>
+            <input type="date" id="ExpDate">
+            <input id="AddBtn" type="submit" value="Add +">
+        </form>
+    </div>
+    <div class="filter">
+    <p>Filter Category:</p>
+    <button class="filterPill" data-cat="Food">Food</button>
+    <button class="filterPill" data-cat="Transport">Transport</button>
+    <button class="filterPill" data-cat="All">All</button>
+    </div>
+    <div class="expSummary" id="expList"> 
+    </div>
+    
+
+
+
+
+
+
+    <script src="/main.js"></script>
+    
+</body>
+</html>
