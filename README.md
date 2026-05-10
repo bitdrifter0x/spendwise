@@ -16,3 +16,7 @@ HTML · CSS · Vanilla JavaScript
 
 ## What I Learned
 DOM manipulation, event handling, array methods (map, filter, reduce), localStorage, and dynamic rendering patterns.
+
+## Screenshot
+## Preview
+![spendwise](assets/Screenshot 2026-05-10 161728.png)
