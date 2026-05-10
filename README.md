@@ -3,7 +3,7 @@
 A smart expense tracker that runs entirely in the browser — no backend, no framework, just vanilla JavaScript.
 
 ## Live Demo
-[View App](your-github-pages-link-here)
+[View App](https://bitdrifter0x.github.io/spendwise/)
 
 ## Features
 - Add and delete expenses with category and date
